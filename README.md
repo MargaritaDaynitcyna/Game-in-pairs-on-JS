@@ -1,6 +1,5 @@
-# JS.Game-Game_of_pairs
-View [here](https://margaritadaynitcyna.github.io/Game-in-pairs-on-JS/)
+# Игра "Найди пару"
 
-- Browser Game - game of pairs on JS.
+Посмотреть [здесь](https://margaritadaynitcyna.github.io/Game-in-pairs-on-JS/)
 
-- Uses code splitting.
+- Браузерная игра в пары, написанная на JS.
