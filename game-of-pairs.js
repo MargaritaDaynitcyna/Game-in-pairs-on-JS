@@ -94,7 +94,10 @@ function gameOfPairs() {
         for (num of cardNumb) {
             let card = createCard();
 
-            if (numberOfInput === 2) { card.turn.classList.add('col-6'); };
+            if (numberOfInput === 2) { card.turn.classList.add('col-6'); 
+                document.querySelector('.row').style.width = 'calc(200px*2)';
+                document.querySelector('.row').style.margin = 'auto';
+            };
             if (numberOfInput === 4) { card.turn.classList.add('col-3'); };
             if (numberOfInput === 6) { card.turn.classList.add('col-2'); };
             if (numberOfInput === 8) {
